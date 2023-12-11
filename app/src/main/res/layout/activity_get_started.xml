@@ -1,0 +1,52 @@
+<!-- res/layout/activity_welcome.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_hello" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:text="Chat made easy!"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="@dimen/_300sdp"
+        android:layout_marginLeft="@dimen/_70sdp"
+        android:gravity="center"
+        android:typeface="serif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_320sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp"
+        android:text="Join us for seamless conversations"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:typeface="serif"
+        />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textColor="@color/primary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/white"
+        android:onClick="startSignIn"/>
+
+</RelativeLayout>
